@@ -27,6 +27,7 @@ def merge (left, right):
     # print(answer)
     return answer
 
+
 def merge_sort(array):
     if(len(array)<=1):
         return array
@@ -39,7 +40,8 @@ def merge_sort(array):
     array[:] = merge(left, right)[:]
     # print(array)
     return array
-
+n = [3,2,4]
+print(merge_sort(n))
 
 
 n = int(input("Enter the size of the array: "))
